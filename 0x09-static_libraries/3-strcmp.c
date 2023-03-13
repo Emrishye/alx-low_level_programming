@@ -4,8 +4,8 @@
 #include <ctype.h>
 #include <string.h>
 
-char *_strpbrk(char *s, char *accept)
+int _strcmp(char *s1, char *s2)
 {
-    return strpbrk(s, accept);
+    return strcmp(s1, s2);
 }
 

@@ -4,8 +4,8 @@
 #include <ctype.h>
 #include <string.h>
 
-char *_strpbrk(char *s, char *accept)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
-    return strpbrk(s, accept);
+    return memcpy(dest, src, n);
 }
 
